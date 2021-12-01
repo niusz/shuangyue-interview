@@ -17,7 +17,7 @@ const maxWidth = 640
 
 // RAF
 function animate() {
-    curWidth = curWidth + 3
+    curWidth = curWidth + 5
     $div1.css('width', curWidth)
     if (curWidth < maxWidth) {
         window.requestAnimationFrame(animate) // 时间不用自己控制
